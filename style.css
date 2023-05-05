@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./istockphoto.jpg");
+  background-repeat: repeat;
+  border: 12px ridge rgb(19, 219, 19);
+}
+.container {
+  margin: 20px;
+}
+
+.box1 {
+  height: 80px;
+  width: 320px;
+  border: 6px solid red;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: black;
+  color: #fff;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+
+  display: inline-block;
+}
+.box2 {
+  height: 40px;
+  width: 320px;
+  border: 6px solid red;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: black;
+  color: #fff;
+  /* position: absolute;
+  top: 1%;
+  left: 15%; */
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: -150px;
+  display: inline-block;
+}
+.box3 {
+  height: 80px;
+  width: 320px;
+  border: 6px solid red;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 18px;
+  top: 1%;
+  right: 1%;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Middle section */
+.middle-section {
+  height: 800px;
+}
+
+.offers {
+  display: inline-block;
+  height: 200px;
+  width: 360px;
+  margin: 20px 50px 30px 20px;
+  padding: 40px;
+  border-radius: 60%;
+  border: 5px solid gray;
+  background-color: rgb(10, 125, 125);
+
+  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
+}
+.form {
+  height: 600px;
+  width: 400px;
+  background-color: aliceblue;
+  border: 5px dashed red;
+  padding: 10px;
+
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+form {
+  display: inline-block;
+}
+/* .box1 {
+  height: 80px;
+  width: 320px;
+  border: 6px solid red;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: black;
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+}
+.box2 {
+  height: 40px;
+  width: 320px;
+  border: 6px solid red;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  top: 1%;
+  left: 15%;
+  font-style: italic;
+  text-align: center;
+}
+.box3 {
+  height: 80px;
+  width: 320px;
+  border: 6px solid red;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 5px;
+  top: 1%;
+  right: 1%;
+  text-align: center;
+  font-style: italic;
+}
+.offers {
+  height: 200px;
+  width: 360px;
+  margin: 300px 50px 230px 20px;
+  padding: 40px;
+  border-radius: 60%;
+  border: 5px solid gray;
+  background-color: rgb(10, 125, 125);
+  position: absolute;
+  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
+}
+.form {
+  height: 600px;
+  width: 400px;
+  background-color: aliceblue;
+  border: 5px dashed red;
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+  right: 250px;
+  text-align: center;
+}
+.menu {
+  height: 60px;
+  width: 500px;
+  padding: 6px;
+  border: 6px solid red;
+  background-color: black;
+  border-radius: 50px;
+  position: absolute;
+  top: 900px;
+  right: 260px;
+  color: aliceblue;
+  text-align: center;
+}
+.menu-heading {
+  margin-top: 10px;
+} */
+
+/* lower-section */
+
+.menu {
+  height: 60px;
+  width: 500px;
+  padding: 6px;
+  border: 6px solid red;
+  background-color: black;
+  border-radius: 50px;
+  margin: 0 auto 120px auto;
+
+  color: aliceblue;
+  text-align: center;
+}
+.menu-heading {
+  margin-top: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+  gap: 30px 30px;
+  align-items: stretch;
+}
+.flex-item {
+  border: 4px solid green;
+  flex-basis: 240px;
+  border-radius: 25px;
+  padding: 30px;
+  background-color: aquamarine;
+}
+
+ul {
+}
+li {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/*  ******************************************************************* */
